@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Genshin Impact</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+    <body>
+         <section class="header">
+         <nav>
+            <a href="homepage.html"><img src="image/g3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="info.html">Characters Info</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+<div class="text-box">
+    <h1>Top Played Game in the market</h1>
+    <p>Welcome to Genshin Imapct a Action,Open World and MMORPG game, Come join <br>a Fantasy world filled with
+        exciting adventures with satisfying action gameplay.
+    </p>
+    <a href="signup.html" class="hero-btn">Click to join</a>
+</div>
+
+</section>
+<!----------Course---------->
+<section class="course">
+<hr>
+<h1>Game Setting</h1>
+<p>What game offers to the players</p>
+<div class="row">
+    <div class="course-col">
+        <h3>Open Adventure</h3>
+        <p>Genshin offers a open world map to traverse arund map with tons of challanges to complete for rewards
+            and puzzles to create a fun way to explore the lands with hidden treasures.
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Gatcha System</h3>
+        <p>In Genshin you have a gatcha system that offers you series of new characters to collect on your prefered
+            type of elementy and design. Genshin offers varitey of designs in their characters.
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>MMORPG Style</h3>
+        <p>"Massively Multiplayer Online Role Playing Game" which allows players to join other players world to experiece
+            a friendly gameplay to increase palyers connectivity.
+        </p>
+    </div>
+</div>
+</section>
+<!----------Footer---------->
+<hr>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+    Genshin Impact takes place in the fantasy world of Teyvat, which is home to seven distinct nations,<br> each of 
+    which is tied to an element and ruled by a god associated with it. The story follows a twin,<br> referred to as 
+    the Traveler, who has traveled across many other worlds but has become separated<br> from their twin sibling in
+     Teyvat. The Traveler travels in search of the lost sibling with their<br> companion Paimon and becomes involved
+      in the affairs of Teyvat's nations and gods.
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        
+    </div>
+</section>
+<!----------JavaScript for Toggle---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Genshin Impact</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+    <body>
+         <section class="sub-header">
+         <nav>
+            <a href="homepage.html"><img src="image/g3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="info.html">Characters Info</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+<h1>Register</h1>
+
+</section>
+<!----------Sign up Page---------->
+<div class="sign-up">
+    <h3> Sign Up to join the adventure now</h3>
+
+    <form class="sign-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <input type="password" placeholder="Enter password">
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+
+<!----------Footer---------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+    Genshin Impact takes place in the fantasy world of Teyvat, which is home to seven distinct nations,<br> each of 
+    which is tied to an element and ruled by a god associated with it. The story follows a twin,<br> referred to as 
+    the Traveler, who has traveled across many other worlds but has become separated<br> from their twin sibling in
+     Teyvat. The Traveler travels in search of the lost sibling with their<br> companion Paimon and becomes involved
+      in the affairs of Teyvat's nations and gods.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        
+    </div>
+</section>
+<!----------JavaScript for Toggle---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
+
+    </body>
+</html>
